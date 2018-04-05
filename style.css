@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-size 20px;
+    background-image: url(photo/bg.png);
+    color: gray;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1{
+    
+    text-align: center;
+    font-size: 3rem;
+    font-family: fantasy;
+    letter-spacing: .5rem;
+}
+
+.social-m{
+    padding-bottom: 1.5rem;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center; 
+}
+
+header span{
+    
+    font-size: 3rem;
+    margin: 0 2rem;;
+}
+
+.social-m span{
+    transition: all .7s ease;
+}
+
+.social-m span:hover{
+   color: olivedrab;
+    cursor: pointer;
+    
+}
+
+nav{
+    text-align: center;
+    background: rgba(100,100,100,.5);
+    padding: 1.5rem;
+}
+
+nav li{
+    text-transform: uppercase;
+    font-weight: 700;
+    list-style: none;
+    display: inline-block;
+    margin: .3rem 6rem;
+    transition: all .5s ease-in-out;
+}
+
+nav li:hover{
+    color: olivedrab;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+main section p{
+    font-size: 1.3rem;
+    margin: 3rem;
+    
+}
+
+.photo{
+    min-width: 1280px;
+    min-height: 853px;
+    background-image: url(photo/p-1.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+footer{
+    text-align: center;
+    padding: 3rem;
+    letter-spacing: .2rem;
+    background: rgba(2,2,2,.3);
+}
+
+section:nth-child(3){
+    display: flex;
+    justify-content: center;
+}
+
+.animals{
+    width: 300px;
+    height: 200px;
+    margin: 0 .2rem;
+}
+
+
+
+
+
+
